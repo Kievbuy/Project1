@@ -4,7 +4,17 @@
 
 <h4>Examples of incoming data</h4>
 
-<b>Example 1:</b>
-1478779621 <br>
-1478687791 <br>
-Expected result: 
+<b>Example 1:</b><br>
+t1: 1478779621 <br>
+t2: 1478687791 <br>
+Expected result: 1 day, 1 hour, 30 minutes, and 30 seconds.<br>
+
+<b>Example 2:</b><br>
+t1: 1578779621 <br>
+t2: 1478689621 <br>
+Expected result: 1158 days, 10 hours, 46 minutes, and 40 seconds.<br>
+
+<b>Example 3:</b><br>
+t1: 1496564970 <br>
+t2: 1465028970 <br>
+Expected result: 365 days, 0 hours, 0 minutes.<br>
