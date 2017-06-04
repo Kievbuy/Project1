@@ -18,27 +18,27 @@ x = t1-t2
 t = sec2dhms(x)        
 
 if t[0] == 1
-  puts "#{t[0]} day,"         # when single
+  print "#{t[0]} day, "         # when single
 else
-  puts "#{t[0]} days,"        # when multiple
+  print "#{t[0]} days, "        # when multiple
 end
 
 if t[1] == 1
-  puts "#{t[1]} hour,"         # when single
+  print "#{t[1]} hour, "         # when single
 else
-  puts "#{t[1]} hours,"        # when multiple
+  print "#{t[1]} hours, "        # when multiple
 end
 
 if t[2] == 1
-  puts "#{t[2]} minute,"         # when single
+  print "#{t[2]} minute"         # when single
 else
-  puts "#{t[2]} minutes,"        # when multiple
+  print "#{t[2]} minutes"        # when multiple
 end
   
 if t[3] == 1
-  puts "and #{t[3]} second."         # when single
+  print ", and #{t[3]} second."         # when single
 elsif t[3] == 0
-  print ""                          # when zero
+  print "."                          # when zero
 else
-  puts "and #{t[3]} seconds."        # when multiple
+  print ", and #{t[3]} seconds."        # when multiple
 end
